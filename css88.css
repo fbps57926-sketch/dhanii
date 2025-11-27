@@ -1,0 +1,117 @@
+/* Background tema Ramadhan */
+.ramadhan-bg {
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    background: linear-gradient(#0f5132, #145a32, #1e5631);
+    background-attachment: fixed;
+    color: white;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Login card */
+.login-card {
+    background: rgba(255, 255, 255, 0.15);
+    backdrop-filter: blur(6px);
+    padding: 25px;
+    border-radius: 15px;
+    width: 320px;
+    text-align: center;
+    box-shadow: 0 0 15px rgba(255,255,255,0.2);
+}
+
+.title {
+    font-size: 26px;
+    margin-bottom: 5px;
+}
+
+.subtitle {
+    font-size: 14px;
+    opacity: 0.9;
+}
+
+label {
+    display: block;
+    margin-top: 12px;
+    text-align: left;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin-top: 6px;
+    border-radius: 6px;
+    border: none;
+    outline: none;
+    font-size: 14px;
+}
+
+.btn {
+    width: 100%;
+    margin-top: 18px;
+    padding: 10px;
+    background: #f4d03f;
+    border: none;
+    border-radius: 8px;
+    font-weight: bold;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background: #f1c40f;
+}
+
+.hint {
+    margin-top: 10px;
+    font-size: 13px;
+    opacity: 0.9;
+}
+
+/* Dashboard Style */
+.navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    padding: 12px 20px;
+    background: rgba(0,0,0,0.35);
+    backdrop-filter: blur(4px);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-left {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.nav-menu a {
+    color: white;
+    margin-left: 18px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.nav-menu a:hover {
+    text-decoration: underline;
+}
+
+.logout {
+    color: #ffeb3b;
+}
+
+.card {
+    margin-top: 120px;
+    padding: 25px;
+    background: rgba(255, 255, 255, 0.15);
+    backdrop-filter: blur(6px);
+    width: 80%;
+    max-width: 600px;
+    border-radius: 15px;
+    box-shadow: 0 0 15px rgba(255,255,255,0.2);
+    text-align: center;
+}
